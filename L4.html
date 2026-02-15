@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level 4</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="L4.css">
+</head>
+<body>
+    <div class="container vh-100 d-flex justify-content-center align-items-center">
+        <div class="card" style="width: 28rem;">
+            <div class="card-body p-4">
+                <h5 class="card-title text-center mb-4">Level 4: Form Validation</h5>
+                
+                <p class="card-text mb-4 text-center">
+                    Enter your name in the field below. Form validation will check if it's empty.
+                </p>
+                
+                <form id="nameForm">
+                    <div class="mb-3">
+                        <label for="nameInput" class="form-label">Your Name</label>
+                        <input type="text" class="form-control" id="nameInput" placeholder="Enter your name">
+                    </div>
+                    
+                    <div class="mb-4">
+                        <button type="submit" class="btn btn-primary w-100">Submit</button>
+                    </div>
+                </form>
+                
+                <div id="successMessage" class="alert alert-success text-center">
+                    <strong>Success!</strong> Welcome, <span id="userName"></span>!
+                </div>
+                
+                <div id="errorMessage" class="alert alert-danger text-center">
+                    <strong>Error!</strong> Please enter your name before submitting.
+                </div>
+                
+                <div class="d-flex justify-content-between mt-4">
+                    <a href="L3.html" class="btn btn-secondary">Back</a>
+                    <a href="L5.html" class="btn btn-primary" id="nextBtn" style="display: none;">Next</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="L4.js"></script>
+</body>
+</html>

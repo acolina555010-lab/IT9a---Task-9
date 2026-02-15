@@ -1,0 +1,13 @@
+body {
+    background-color: #3492f0;
+    min-height: 100vh;
+}
+
+.card {
+    border-radius: 15px;
+    box-shadow: px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+#successMessage, #errorMessage {
+    display: none;
+}

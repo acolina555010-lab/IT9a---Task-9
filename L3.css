@@ -1,0 +1,41 @@
+body {
+    background-color: #596775;
+    min-height: 100vh;
+}
+
+.card {
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.level-badge {
+    font-size: 1.2rem;
+    padding: 8px 16px;
+}
+
+.card-title {
+    color: #333;
+    font-weight: 600;
+}
+
+.alert {
+    border-radius: 10px;
+}
+
+.btn-success {
+    transition: all 0.3s ease;
+}
+
+.btn-success:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.btn-secondary, .btn-primary {
+    transition: all 0.3s ease;
+}
+
+.btn-secondary:hover, .btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
